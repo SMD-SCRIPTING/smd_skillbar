@@ -48,4 +48,4 @@ Releases:
 - SMD_Backseat: https://forum.cfx.re/t/standalone-paid-smd-backseat-backseats-for-2-door-cars/5131765
 - SMD_Vehiclebed: https://forum.cfx.re/t/standalone-paid-smd-vehiclebed/5133883 
 - SMD_Windowseat: https://forum.cfx.re/t/standalone-paid-smd-windowseat/5138117 
-- SMD_Skillbar: 
+- SMD_Skillbar: https://forum.cfx.re/t/standalone-free-smd-skillbar/5168511 
