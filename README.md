@@ -19,7 +19,7 @@ Adds simple, minimalistic and easy to use skillbar to your server. Contains only
 - Add **"start smd_skillbar"** in your `server.cfg`
 
 # How to use
-- Go to the place where you want to add the progressbar
+- Go to the place where you want to add the skillbar
 - Add these lines:
 ```lua
     exports['smd_skillbar']:SMD_SkillBar({
