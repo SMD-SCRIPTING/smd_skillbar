@@ -22,12 +22,18 @@ Adds simple, minimalistic and easy to use skillbar to your server. Contains only
 - Go to the place where you want to add the skillbar
 - Add these lines:
 ```lua
-    exports['smd_skillbar']:SMD_SkillBar({
+    local game = exports['smd_skillbar']:SMD_SkillBar({
         time = math.random(1500, 3000), -- How long does the skillbar run
         position = math.random(15, 50), -- How far right the button box is
         width = math.random(10, 15), -- How wide the button bow is
         games = math.random(1, 3) -- How many games of the skillbar
     })
+
+    if game then
+        -- Your code here when winning the minigame
+    else
+        -- Your code here when losing the minigame
+    end
 ```
 
 # Preview
