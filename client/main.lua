@@ -72,3 +72,9 @@ function notification(text)
 		CurrentlyText = false
 	end
 end
+
+RegisterNetEvent('smd_skillbar:SMD_SkillBar')
+AddEventHandler('smd_skillbar:SMD_SkillBar', function(data, triggerback)
+    local gameData = SMD_SkillBar(data)
+    TriggerServerEvent(triggerback, GetPlayerServerId(PlayerId()), gameData)
+end)
